@@ -1,0 +1,32 @@
+h1{
+    color: white;
+}
+
+p{
+    color: black;
+}
+
+a{
+    display: inline-block;
+    line-height: 79px;
+    text-align: center;
+    background-color: #22D4FD;
+    color: black;
+    min-width: 280px;
+    min-height: 79px;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 16px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a:hover{
+    background-color: aliceblue;
+    text-decoration: underline;
+}
+
+.bold-blue{
+    color: blue;
+    font-weight: bold;
+}
