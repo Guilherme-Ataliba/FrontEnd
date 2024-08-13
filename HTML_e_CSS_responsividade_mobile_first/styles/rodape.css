@@ -1,0 +1,11 @@
+.rodape{
+    background-color: var(--branco);
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+.rodape__titulo{
+    font-size: 1rem;
+    color: black;
+    font-family: var(--fonte-principal);
+    font-weight: normal;
+}
