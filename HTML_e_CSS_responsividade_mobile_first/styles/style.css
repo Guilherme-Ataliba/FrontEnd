@@ -5,7 +5,7 @@
 @import url("contato.css");
 @import url("rodape.css");
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Krona+One&family=Margarine&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Poppins:wght@300;400;500;700&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Krona+One&family=Margarine&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Poppins:wght@300;400;500;700&family=Sriracha&display=swap');
 
 :root{
     --background-color: #EBECEE;
@@ -13,8 +13,12 @@
     --dourado: #EB9B00;
     --azul: #002F52;
     --azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --preto: #000000;
+    --cinza: #858585;
+    --cinza-escuro: #474646;
 
     --fonte-principal: "Poppins", sans-serif;
+    --fonte-secundaria: "Josefin Sans", sans-serif;
 }
 
 body{

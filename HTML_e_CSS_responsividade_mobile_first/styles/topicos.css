@@ -38,3 +38,31 @@
     padding: 1rem 1.5rem;
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos__titulo{
+        font-size: 1.5rem;
+    }
+
+    .topicos__link{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .topicos{
+        padding: 3em 30vw;
+    }
+
+    .topicos__titulo{
+        font-size: 2rem;
+    }
+    
+    .topicos__item{
+        margin: 2rem 0.5rem;
+    }
+
+    .topicos__link{
+        padding: 1.5rem 1.5rem;
+    }
+}

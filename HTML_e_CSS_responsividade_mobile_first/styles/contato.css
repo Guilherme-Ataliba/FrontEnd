@@ -45,3 +45,39 @@
     background: url("../assets/Email.svg") no-repeat;
     background-position: 0.8rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* gap: 10%; */
+    }
+
+    .contato__titulo{
+        font-size: 1.5rem;
+    }
+
+    .contato__descricao{
+        margin-left: 10%;
+    }
+
+    .contato__email{
+        width: 60%;
+        margin: 0 10% 0 10%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .contato{
+        padding: 3em 25vw;
+    }
+
+    .contato__descricao{
+        width: 70%;
+    }
+
+    .contato__email{
+        margin: 0;
+    }
+}
