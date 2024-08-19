@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+:root{
+    --font-family: "Jersey 10", sans-serif;
+    --bg-color: #FFF3CD;
+    --primary-color: #4D3E3E;
+    --secondary-color: #FF926B;
+    --terciary-color: #803D3B;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font-family);
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2{
+    font-size: 6rem;
+}
+
+h3 {
+    font-size: 3rem;
+    margin-top: 0.5em;
+}
+
+.mensagem{
+    font-size: 2.2em;
+    margin-top: 1.5em;
+}
+
+#menor-valor, #maior-valor{
+    color: var(--secondary-color);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.box{
+    border: 5px solid var(--primary-color);
+    padding: 0.02em 0.1em;
+    padding-left: 0.15em;
+    margin: 0.1em;
+    
+    color: var(--terciary-color);
+    display: inline-block;
+    font-size: 5em;
+}
+
+.disabled {
+    display: none;
+}
+
+.btn-jogar-novamente{
+    font-size: 1.5em;
+    background-color: var(--terciary-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    border-radius: 10px;
+    box-shadow: 0.3em 0.3em var(--primary-color);
+    cursor: pointer;
+}
+
+.btn-jogar-novamente:hover{
+    /* background-color: var(--primary-color); */
+    box-shadow: none;
+    border: 1px solid black;
+}
+
+#numero-vitoria{
+    color: var(--secondary-color);
+}
